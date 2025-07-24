@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head><title>Gallery</title></head>
+<body>
+  <h1>Image Gallery</h1>
+  {% for id, title, url in images %}
+    <div>
+      <h2>{{ title }}</h2>
+      <img src="{{ url }}" alt="{{ title }}" style="max-width:300px;"><br>
+    </div>
+  {% endfor %}
+  <p><a href="/">Back to Home</a></p>
+</body>
+</html>
