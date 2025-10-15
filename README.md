@@ -1,2 +1,2 @@
 # ImageWebsite
-My first website
+Image website
